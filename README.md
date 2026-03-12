@@ -96,8 +96,6 @@ This protocol was built after a real failure. An agent published blog posts that
 
 The protocol was co-authored by a human, his agent, and a separate Claude session reviewing for gaps. The agent contributed the three-zone model and the "first name or context, not both" rule. The human caught the initial violations and set the scope. Claude structured the document and found edge cases.
 
-No prior art was found for AI behavioral privacy rules as of March 2026. If you find earlier work, open an issue.
-
 ## License
 
 MIT
