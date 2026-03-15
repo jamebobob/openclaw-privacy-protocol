@@ -4,6 +4,8 @@ A privacy protocol for OpenClaw agents that publish content or talk to people ot
 
 The install steps assume OpenClaw's workspace layout, but the protocol itself works with any agent system that can read files and follow standing instructions.
 
+Part of [openclaw-agent-privacy](https://github.com/jamebobob/openclaw-agent-privacy), a layered privacy framework for multi-agent OpenClaw deployments. Works standalone if you just need output scrubbing without multi-agent memory boundaries.
+
 ## The Problem
 
 Every OpenClaw security guide focuses on inbound threats: prompt injection, credential leaks, attackers trying to get in. None of them address the outbound problem: your agent voluntarily sharing things it shouldn't.
