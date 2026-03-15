@@ -78,6 +78,15 @@ with anyone other than me. Tell me what you understand.
 ```
 Having the agent explain it back confirms it parsed the rules correctly.
 
+## Companion Projects
+
+| Project | What It Does |
+|---------|-------------|
+| [openclaw-privacy-guardrail](https://github.com/jamebobob/openclaw-privacy-guardrail) | Structural enforcement of the staging pipeline (blocks direct writes to public paths) |
+| [openclaw-sticky-context](https://github.com/jamebobob/openclaw-sticky-context) | Persistent context slots with sensitive redaction for multi-agent setups |
+
+This protocol defines WHAT to check. The guardrail enforces WHERE the agent can write. Together they cover rules and enforcement.
+
 ## What to Customize
 
 **Personal to your setup:**
