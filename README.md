@@ -78,10 +78,15 @@ with anyone other than me. Tell me what you understand.
 ```
 Having the agent explain it back confirms it parsed the rules correctly.
 
+## Per-Group Context
+
+In a per-group agent architecture, what's appropriate to share varies by audience. Information that's fine in a family group chat may not be appropriate in a friends group. The scrub rules in this protocol provide a baseline, but agents should also consider their audience context (available via their group-specific USER.md and systemPrompt).
+
 ## Companion Projects
 
 | Project | What It Does |
 |---------|-------------|
+| [openclaw-agent-privacy](https://github.com/jamebobob/openclaw-agent-privacy) | Parent privacy framework for multi-agent deployments |
 | [openclaw-privacy-guardrail](https://github.com/jamebobob/openclaw-privacy-guardrail) | Structural enforcement of the staging pipeline (blocks direct writes to public paths) |
 | [openclaw-sticky-context](https://github.com/jamebobob/openclaw-sticky-context) | Persistent context slots with sensitive redaction for multi-agent setups |
 
