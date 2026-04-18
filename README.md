@@ -1,3 +1,5 @@
+> **Archived April 2026.** Built on [OpenClaw](https://github.com/openclaw/openclaw) and moved off of it when the active work migrated to [Hermes](https://github.com/hermes-agent/hermes-agent). The design ideas in this repo might still be useful. The platform wiring is obsolete.
+
 # openclaw-privacy-protocol
 
 A privacy protocol for OpenClaw agents that publish content or talk to people other than their owner.
